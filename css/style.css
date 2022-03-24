@@ -1,0 +1,827 @@
+*{ margin:0px;
+   padding: 0px; 
+}
+body {
+    font-size: 14px;
+    line-height: 24px;
+    font-family: ;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+h1 , h2 , h3 , h4 , h5 , h6{
+    font-family: 'Poppins', sans-serif;
+}
+a , a:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;                                
+}
+
+/* header css start here */
+.header {
+    width: 100%;
+    z-index: 9;
+    position: fixed;
+    background-color: #E5E5E5;
+    box-shadow: 0px 10px 28px rgb(0 0 0 / 28%);
+    
+}
+.header .bg-light .nav-link {
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.header .bg-light li{
+    margin-right: 10px;
+}
+.header .bg-light .form-control{
+
+}
+.header .bg-light .form-control:focus {
+    background-color: #fff;
+    border-color: #FF3E4E !important;
+    box-shadow: none !important;
+}
+.header .bg-light .btn{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+}
+.header .bg-light .btn:hover , .header .bg-light .btn:focus {
+    box-shadow: none; 
+}
+/* header css end here */
+
+/* banner css start here */
+    .banner{
+        width: 100%;
+        background: url(../images/banner.png) center top no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+    .banner .banner-content{
+        width: 100%;
+        margin-top: 254px;
+    }
+    .banner .banner-content h2 {
+        font-size: 28px;
+        line-height: 38px;
+        color: #fff;
+        text-transform: capitalize;
+        font-weight: 400;
+    }
+    .banner .banner-content h1 {
+        font-size: 52px;
+        line-height: 62px;
+        padding: 13px 0px;
+        color: #fff;
+        text-transform: capitalize;
+        font-weight: 600;
+    }
+    .banner .banner-content span{
+        color: #FF3E4E;
+    }
+
+/* banner css end here */
+
+/* book-now css start here */
+    .book-now{
+        width: 100%;
+        padding: 30px 0px;
+    }
+    .book-now .book-form {
+        width: 100%;
+        padding: 50px;
+        box-shadow: 0px 10px 28px rgb(0 0 0 / 28%);
+        position: relative;
+    }
+
+    .book-now .form-control {
+        padding: 10px 11px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .book-now  .btn-primary {
+        color: #fff;
+        background-color: #0d6efd;
+        border-color: #0d6efd;
+        margin-top: 15px;
+        font-size: 18px;
+        line-height: 28px;
+        padding: 6px 28px;
+        margin-bottom: -18px;
+        border: 2px solid #0d6efd;
+    }
+    .book-now  .btn-primary:hover , .book-now  .btn-primary:focus{
+        background: transparent;
+        color: #0d6efd;
+    }
+    .book-now .book-form i {
+        position: absolute;
+        margin-top: -37px;
+        font-size: 26px;
+        color: #0000f89e;
+        margin-left: 327px;
+    }
+/* book-now css end here */
+
+/* service section start here */
+    .service{
+        width: 100%;
+        padding: 100px 0px;
+    }
+    .service .left-content{
+        width: 100%;
+        position: relative;
+    }
+    .service .left-content img {
+        width: 100%;
+        transition: 0.5s;
+    }
+    .service .inner-service{
+        background: #F2F6FE;
+        padding: 35px;
+        margin-bottom: 23px;
+    }
+    .service .red{
+        background: #FFF4F4;
+    }
+    .service .inner-service img{
+
+    }
+    .service .inner-service h4{
+        font-size: 20px;
+        padding: 39px 0px 26px 0px;
+    }
+    .service .inner-service p {
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 1px;
+        margin: -10px 0px 0px 0px;
+        color: #797373;
+    }
+    .service .title p{
+        content: "";
+        width: 136px;
+        height: 24px;
+        background-color: #FF3E4E;
+        position: absolute;
+        border-radius: 4px;
+        left: 89%;
+        top: 18%;
+        opacity: 0.2;
+    }
+/* service section end here */
+
+/* feature-img section start */
+    .feature-img{
+        width: 100%;
+        padding: 40px 0px;
+    }
+    .feature-img .img-1{
+        width: 65%;
+        position: relative;
+    }
+    .feature-img .img-1 img {
+        box-shadow: 0 10px 10px rgb(0 0 0 / 50%);
+        width: 100%;
+        }
+        .feature-img .img-2 {
+            width: 80%;
+            position: relative;
+            margin-left: -203px;
+            margin-top: 60px;
+        }
+        .feature-img .img-2 img{
+            box-shadow: 0 10px 10px rgb(0 0 0 / 50%);
+            width: 100%;
+        }
+        .feature-img .img-2 .team-text{
+            text-align: center;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            opacity: 1;
+            background: linear-gradient(to top, #000, transparent);
+            padding: 300px 0px 0px 0px;
+            transition: 1s;
+            opacity: 0;
+        }
+        .feature-img .img-2 .team-text:hover{
+            padding: 180px 0px 0px 0px;
+            opacity: 1;
+        }
+        .feature-img .img-3 {
+            width: 56%;
+            position: relative;
+            margin-left: 60px;
+            margin-top: 43px;
+        }
+        .feature-img .img-3 img{
+            box-shadow: 0 10px 10px rgb(0 0 0 / 50%);
+            width: 100%;
+        }
+        .feature-img .img-3 .team-text {
+            text-align: center;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            opacity: 1;
+            background: linear-gradient(to top, #000, transparent);
+            padding: 370px 0px 0px 0px;
+            transition: 1s;
+            opacity: 0;
+        }
+        .feature-img .img-3 .team-text:hover{
+            padding: 225px 0px 0px 0px;
+            opacity: 1;
+        }
+        .feature-img .img-4 {
+            width: 100%;
+            position: relative;
+            margin-left: -201px;
+            margin-top: -19px;
+        }
+        .feature-img .img-4 img{
+            box-shadow: 0 10px 10px rgb(0 0 0 / 50%);
+            width: 100%;
+        }
+        .feature-img .img-4 .team-text{
+            text-align: center;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background: linear-gradient(to top, #000, transparent);
+            padding: 450px 0px 0px 0px;
+            transition: 1s;
+            opacity: 0;
+        }
+        .feature-img .img-4 .team-text:hover{
+            padding: 250px 0px 0px 0px;
+            opacity: 1;
+        }
+        .feature-img .title p{
+            background-color: #FF3E4E;
+            position: absolute;
+            border-radius: 4px;
+            opacity: 0.2;
+        }
+/* feature-img section end */
+
+/* recent news css start here */
+        .recent-news{
+            width: 100%;
+            padding: 60px 0px;
+        }
+        .recent-news .recent-img img{
+            width: 100%;
+        }
+        .recent-news .recent-box .btn-danger{
+            color: #FF3E4E;
+        }
+        .recent-news .recent-box {
+            background-color: #F2F6FE;
+            padding: 40px;
+        }
+        .recent-news .red{
+            background-color: #FFF4F4;
+        }
+        .recent-news .recent-box .btn-danger:hover {
+            color: #fff;
+        }
+        .recent-news .recent-box:hover .btn-danger{
+            transform: scale(1.1);
+        }
+        .recent-news .recent-box h4 {
+            color: #696868;
+            font-size: 24px;
+            line-height: 34px;
+        }
+        .recent-news .recent-box p {
+            font-size: 17px;
+            line-height: 27px;
+            margin-bottom: 0px;
+            margin-top: 15px;
+        }
+        .recent-news .recent-box p {
+            font-size: 17px;
+            line-height: 27px;
+            margin-bottom: 0px;
+            margin-top: 15px;
+            margin-bottom: -10px;
+            color: #968686
+        }
+        .recent-news .recent-content{
+            margin-bottom: 30px;
+        }
+
+/* recent news css end here */
+
+
+/* testimonial css start here */
+    .testimonial{
+        width: 100%;
+        padding: 60x 0px;
+    }
+    .testimonial .title p{
+        width: 136px;
+        height: 24px;
+        background-color: #FF3E4E;
+        border-radius: 4px;
+        opacity: 0.2;
+        margin-left: 73%;       
+    }
+/* testimonial css end here */
+
+/* slider css start here */
+    .slider{
+        width: 100%;
+        padding: 60px 0px;
+    }
+    .slider .inner-slider {
+        width: 100%;
+        height: 404px;
+        background-color: #F2F6FE;
+        padding: 40px 102px;
+        position: relative;
+    }
+    .slider .inner-slider h4{
+        margin: 20px 0px;
+    }
+    .slider .inner-slider h4:before {
+        content: "";
+        width: 160px;
+        height: 4px;
+        color: #FF3E4E;
+        background-color: #FF3E4E;
+        left: 12%;
+        top: 67%;
+        position: absolute;
+    }
+
+    .slider .inner-slider img{
+        width: 40%;
+    }
+    .slider .inner-slider .vector img {
+        position: absolute;
+        width: 15%;
+        left: 65%;
+        top: 29%;
+        transform: rotate(180deg);
+        opacity: 0.2;
+    }
+/* slider css end here */
+
+/* contact css start here */
+    .contact{
+        width: 100%;
+        padding: 60px 0px;
+        background-color:#F2F6FE ;
+    }
+    .contact .contact-location{
+        width: 100%;
+    }
+    .contact .contact-location img{
+
+    }
+    .contact .contact-location p {
+        margin-top: 33px;
+        font-size: 18px;
+        line-height: 28px;
+        width: 40%;
+        color: #3C3C3C;
+        font-family: 'Poppins', sans-serif;
+    }
+    .contact .contact-outher{
+        width: 100%;
+    }
+    .contact .contact-outher ul{
+        list-style: none;
+    }
+
+    .contact .contact-outher ul li .contact-menu{
+        font-size: 22px;
+        line-height: 32px;
+        font-weight: 600;
+        color: #000;
+    }
+    .contact .contact-outher ul li {
+        font-size: 18px;
+        line-height: 28px;
+        margin-top: 15px;
+        color: #3C3C3C;
+        font-family: 'Poppins', sans-serif;
+    }
+
+/* contact css end here */
+
+/* footer css start here */
+    .footer{
+        width: 100%;
+        margin-top: 65px;
+    }
+    .footer .creator{
+        
+    }
+    .footer .creator p{
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 400;
+        letter-spacing: 0px;
+    }
+    .footer .creator span{
+        font-weight: 600;
+    }
+    .footer .social{
+        width: 100%;
+        text-align: right;
+    }
+    .footer .social a{
+        margin-left: 10px;
+    }
+    .footer .social p a i {
+        font-size: 24px;
+        line-height: 40px;
+        background-color: transparent;
+        color: #0d6efd;
+        width: 42px;
+        height: 42px;
+        text-align: center;
+        border-radius: 50%;
+        border: 1px solid #0d6efd;
+    }
+    .footer .social p a i:hover{
+        background-color: #0d6efd;
+        color: #fff;
+    }
+/* footer css end here */
+/* global css start here */
+.title{
+}
+.title h1{
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 40px;
+    letter-spacing: 3px;
+}
+.title img{
+
+}
+.team-text{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    background: linear-gradient(to top, #000, transparent);
+    padding: 400px 0px 0px 0px;
+    transition: 1s;
+    opacity: 0;
+}
+.team-text:hover{
+    padding: 300px 0px 0px 0px;
+    opacity: 1;
+}
+
+.team-text h2 {
+    font-size: 32px;
+    line-height: 42px;
+    margin: 0px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 3px;
+}
+.team-text p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+.team-text a{
+    
+}
+.team-text a i {
+    font-size: 24px;
+    line-height: 34px;
+    color: #fff;
+    border: 1px solid #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 8px 0px 0px 0px;
+    background: transparent;
+    transition: 0.5s;
+}
+.team-text a i:hover{
+    background-color: #fff;
+    color: #0d6efd;
+}
+.btn-danger {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background: transparent;
+    text-transform: uppercase;
+    border: 2px solid #FF3E4E !important;
+    color: #fff;
+    padding: 7px 12px;
+    margin-top: 39px;
+    transition: 0.2s;
+}
+.btn-danger:hover , .btn-danger:focus{
+    background-color: #FF3E4E;
+    
+}
+i{
+    transition: 1s;
+}
+.btn-danger:hover  i{
+    margin-left: 10px;
+    
+}
+/* global css end here */
+
+/* ****************************************************
+responsive css for Mobile Phone (320px-480px) start
+*******************************************************/
+
+@media (min-width:320px) and (max-width:480px){
+
+    /* header responsive start */
+    .banner .banner-content h2 {
+        font-size: 22px;
+        line-height: 32px;
+        padding: 0px 33px;
+    }
+    .banner .banner-content h1 {
+        font-size: 35px;
+        line-height: 45px;
+        padding: 25px 0px 0px 0px;
+    }
+    .banner .banner-content .btn-danger{
+        margin-top: 82px;
+    }
+    /* header responsive end */
+    .banner {
+        width: 100%;
+        height: 100vh;
+        }
+    .banner .banner-content {
+        width: 100%;
+        margin-top: 135px;
+        text-align: center;
+    }
+/* book-now responsive start */
+
+    .book-now .btn-primary {
+        position: absolute;
+        top: 84%;
+        left: 26%;
+        margin: auto;
+    }
+
+    .book-now .book-form i {
+        font-size: 20px;
+        margin-left: 163px;
+    }
+    
+/* book-now responsive end */
+
+/* service responsive here */
+    .service {
+        width: 100%;
+        padding: 20px 0px;
+    }
+    .service .inner-service{
+        text-align: center;
+    }
+    .service .inner-service h4 {
+        padding: 15px 0px 15px 0px;
+    }
+    .service .inner-service p {
+        padding: 0px 12px;
+    }
+/* service responsive end */
+
+/* recent-news responsive start */
+    .recent-news {
+        width: 100%;
+        margin: 140px 0px 0px 0px;
+    }
+
+    .recent-news .recent-box {
+        padding: 40px;
+        text-align: center;
+    }
+
+    .recent-news .recent-box h4 {
+        font-size: 22px;
+        line-height: 32px;
+        padding: 15px 0px;
+    }
+
+/* recent-news responsive end */
+
+/* feature responsive start */
+    .feature{
+        padding: 0px 0px;
+    }
+    .feature-img {
+        padding: 0px 0px;
+    }
+    .feature-img .img-1 {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .feature-img .img-2 {
+        width: 100%;
+        position: relative;
+        margin: 0 auto;
+        top: 20%;
+    }
+
+    .feature-img .img-3 {
+        width: 100%;
+        position: relative;
+        margin: 0 auto;
+        top: 25%;
+    }
+    .feature-img .img-4 {
+        width: 100%;
+        position: relative;        
+        top: 65%;
+        margin: 0 auto;
+    }
+    .feature-img .img-2 .team-text {
+        width: 100%;
+        height: 100%;
+        opacity: 1;
+        padding: 72px 0px 0px 0px;
+    }
+    .feature-img .img-3 .team-text {
+        opacity: 1;
+        padding: 203px 0px 0px 0px;
+    }
+    .feature-img .img-4 .team-text {
+        opacity: 1;
+        padding: 65px 0px 0px 0px;
+    }
+/* feature responsive end */
+
+/* contact responsive start */
+    .testimonial .title p {
+        width: 120px;
+        height: 22px;
+        margin: 0;
+    }
+    .slider .inner-slider {
+        width: 100%;
+        height: 465px;
+        background-color: #F2F6FE;
+        padding: 34px 0px;
+        position: relative;
+    }
+    .slider .inner-slider img {
+        width: 100%;
+    }
+    .slider .inner-slider h4:before {
+        content: "";
+        left: 0%;
+        top: 61%;
+    }
+    .slider .inner-slider .vector img {
+        position: absolute;
+        width: 12%;
+        left: 70%;
+        top: 54%;
+    }
+    .contact .contact-location {
+        width: 100%;
+        text-align: center;
+    }
+    .contact .contact-outher {
+        width: 100%;
+        text-align: center;
+    }
+    .contact .contact-location p {
+        font-size: 18px;
+        line-height: 28px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 30px 0px;
+    }
+    .contact .contact-outher ul li .contact-menu {
+        font-size: 22px;
+        line-height: 32px;
+        font-weight: 500;
+        color: #000;
+    }
+    .contact .contact-outher ul li {
+        margin-top: 8px;
+    }
+    .footer .creator p {
+        font-size: 17px;
+        line-height: 27px;
+        text-align: center;
+        font-weight: 500;
+        letter-spacing: 1px;
+        padding: 0px 63px;
+        margin-top: -18px;
+    }
+    .footer .social {
+        width: 100%;
+        text-align: center;
+    }
+/* contact responsive end */
+
+/* global responsive start */
+.title{
+}
+.title h1{
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 40px;
+    letter-spacing: 3px;
+}
+.title img{
+
+}
+.team-text {
+    padding: 204px 0px 0px 0px;
+    opacity: 1;
+}
+.team-text:hover{
+    padding: 300px 0px 0px 0px;
+    opacity: 1;
+}
+
+.team-text h2 {
+    font-size: 22px;
+    line-height: 32px;
+}
+.team-text p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+.team-text a{
+    
+}
+.team-text a i {
+    font-size: 16px;
+    line-height: 26px;
+    width: 40px;
+    height: 40px;
+    padding: 7px 0px 0px 0px;
+}
+.team-text a i:hover{
+    background-color: #fff;
+    color: #0d6efd;
+}
+.btn-danger {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background: transparent;
+    text-transform: uppercase;
+    border: 2px solid #FF3E4E !important;
+    color: #fff;
+    padding: 7px 12px;
+    margin-top: 39px;
+    transition: 0.2s;
+}
+.btn-danger:hover , .btn-danger:focus{
+    background-color: #FF3E4E;
+    
+}
+i{
+    transition: 1s;
+}
+.btn-danger:hover  i{
+    margin-left: 10px;
+    
+}
+/* global responsive end */
+}
+/* ****************************************************
+responsive css for Mobile Phone (320px-480px) start
+*******************************************************/
